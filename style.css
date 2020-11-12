@@ -1,0 +1,19 @@
+header {
+  background-color: black;
+  color: white;
+  height: 200px;
+}
+h1 {
+  text-align: center;
+}
+
+.welcome {
+  height: 894px;
+
+  background-image: url("./pics/MosesJul.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  height: 100px;
+}
