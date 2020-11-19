@@ -16,4 +16,12 @@ h1 {
 }
 footer {
   height: 100px;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  order: 4;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
