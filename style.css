@@ -3,13 +3,14 @@ header {
   color: white;
   height: 200px;
 }
+
 h1 {
   text-align: center;
 }
 
 .welcome {
+  text-align: center;
   height: 894px;
-
   background-image: url("./pics/MosesJul.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,11 +18,16 @@ h1 {
 footer {
   height: 100px;
   background-color: black;
+  color: white;
+  text-align: center;
 }
 
 .container {
   display: flex;
-  order: 4;
-  flex-direction: row;
   justify-content: space-evenly;
+}
+a {
+  text-decoration: line;
+  color: white;
+  font-size: 25px;
 }
