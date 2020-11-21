@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: black;
   color: white;
   height: 200px;
+  text-align: center;
 }
 
 h1 {
@@ -30,4 +35,57 @@ a {
   text-decoration: line;
   color: white;
   font-size: 25px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "bild1 bild2"
+    "bild3 bild4"
+    "bild5 bild6";
+}
+
+.bild1 {
+  justify-content: center;
+  grid-area: bild1;
+  text-align: center;
+  display: flex;
+}
+
+.bild2 {
+  justify-content: center;
+  grid-area: bild2;
+  text-align: center;
+  display: flex;
+}
+
+.bild3 {
+  justify-content: center;
+  text-align: center;
+  grid-area: bild3;
+  text-align: center;
+}
+
+.bild4 {
+  justify-content: center;
+  text-align: center;
+  grid-area: bild4;
+  text-align: center;
+}
+
+.bild5 {
+  justify-content: center;
+  text-align: center;
+  grid-area: bild5;
+  text-align: center;
+}
+
+.bild6 {
+  justify-content: center;
+  text-align: center;
+  grid-area: bild6;
+  text-align: center;
 }
