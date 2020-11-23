@@ -89,3 +89,32 @@ a {
   grid-area: bild6;
   text-align: center;
 }
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1.5fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Kompislore"
+    "pog"
+    "pog2";
+}
+
+.Kompislore {
+  grid-area: Kompislore;
+  text-align: center;
+  background-color: orange;
+}
+
+.pog {
+  grid-area: pog;
+  text-align: center;
+  background-color: blue;
+}
+
+.pog2 {
+  background-color: red;
+  text-align: center;
+  grid-area: pog2;
+}
