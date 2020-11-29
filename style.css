@@ -104,17 +104,14 @@ a {
 .Kompislore {
   grid-area: Kompislore;
   text-align: center;
-  background-color: orange;
 }
 
 .pog {
   grid-area: pog;
   text-align: center;
-  background-color: blue;
 }
 
 .pog2 {
-  background-color: red;
   text-align: center;
   grid-area: pog2;
 }
